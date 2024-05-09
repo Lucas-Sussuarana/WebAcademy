@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+</head>
+<body>
+ <header>
+    <img src="logo.png" alt="logo da pagina">
+    <p>Logo AI</p>
+ </header>  
+ <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pacientes.html">Pacientes</a></li>
+        <li><a href="atendimento.html">Atendimento</a></li>
+        <li><a href="convenios.html">Convenios</a></li>
+        <li><a href="profissionais.html">Profissionai</a></li>
+        <li><a href="unidades.html">Unidades</a></li>
+        <li><a href="especialidades.html">Especialidade</a></li>
+        <li><a href="usuarios.html">Usuarios</a></li>
+    </ul>
+ </nav>   
+ <main>
+   <form action="">
+      <label for="nomeProfissional">Nome:</label>
+      <input type="text" name="nome" id="nomeProfissional">
+      <br> <!-- Serve parapular linha-->
+      <label for="registroConselho">Registro Coselho:</label>
+      <input type="text" name="registro" id="registroConselho">
+      <br>
+      <label for="emailProfissional">Email:</label>
+      <input type="email" name="email" id="emailProfissional">
+      <br> <!-- Serve parapular linha-->
+      <label for="registroUnidade">Registro Unidade:</label>
+      <select>
+         <option value="1">UPA1</option>
+         <option value="2">UPA2</option>
+         <option value="3">UPA3</option>
+      </select>
+      <br>
+      <label for="telefoneProfissional">Telefone:</label>
+      <input type="tel" name="telefone" id="telefoneProfissional">
+      <br> <!-- Serve parapular linha-->
+      <label for="registroEspecialidade">Registro Especialidade:</label>
+      <select>
+         <option value="1">ESPECIALIDADE 1</option>
+         <option value="2">ESPECIALIDADE 2</option>
+         <option value="3">ESPECIALIDADE 3</option>
+      </select>
+      <br>
+      <input type="submit" value="Enviar">
+      <input type="button" value="Cancelar">
+   </form>
+   <table border="]">
+      <thead>
+         <tr>
+            <td>ID</td>
+            <td>Nome</td>
+            <td>Conselho</td>
+            <td>Email</td>
+            <td>Telefone</td>
+            <td>Unidade</td>
+            <td>Especialidade</td>
+            <td>Ações</td>
+         </tr>
+      </thead>
+      <tbody>
+         <!-- tr*5>td*8 | tr*5>td{$}+td{x}*6+td>a[href="javascript:void{0}"]{editar}+{|}+a[href="javascript:void{0}"] {excluir}-->
+         <tr>
+            <td>1</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
+         </tr>
+         <tr>
+            <td>4</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
+         </tr>
+         <tr>
+            <td>5</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
+         </tr>
+      </tbody>
+      <tfoot>
+
+      </tfoot>
+   </table>
+   <!-- Para fazer atabela mais rapdo e so fazer table> head+tbody+tfoot e para dar maislinhas use tr>td*n (n é o valor)-->
+ </main>      
+<footer>
+   <div>
+      <span>Telefone: (00) 00000-0000</span>
+      <span>Email:<a href="mailto:Testes@gmail.com">Testes@gmail.com</a></span>
+   </div>
+</footer>
+</body>
+</html>
