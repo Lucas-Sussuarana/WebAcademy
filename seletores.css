@@ -1,0 +1,40 @@
+/*marcador completo */ *{ 
+    /*font-weight: bold; /*Muda o tom da cor*/
+   /* text-align: center; /*Posiciona o texto*/
+    color: rgb(0, 0, 0);
+}
+
+a { 
+    
+    color: brown;
+}/*Seta A dentro do html para colorir*/
+
+a,
+p { 
+    font-weight: bold;
+} /* Agrupamento de "a" e "p"*/
+
+.link_class{
+    color: rgb(59, 178, 0);
+}/*Seta um link especifico para um texto ou palavra mudar de cor*/
+
+#link_id_size { 
+    font-size: 30px;
+} /* Altera o tamanho do texto*/
+
+a[href="http://www.w3schools.com/"] {
+    background-color: blanchedalmond;
+}
+
+p.p1{
+    color: rgb(135, 135, 135);
+}
+
+p spam{
+    color: rgb(255, 45, 220);
+}
+
+p+h1{
+    font-size: 50px;
+}
+/**/

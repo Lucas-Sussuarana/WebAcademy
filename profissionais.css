@@ -1,0 +1,37 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+div.logo{
+    background: linear-gradient(#999999, #f93434);
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+    
+}/*o linear deixa o background gradiente*/
+/*Main*/
+main{
+    background: linear-gradient(#304274, #b2cd68);
+    padding: 10px
+}
+/*Rodape*/
+
+.botao{
+    background-color: aqua;
+    color: bisque;
+    border: #304274;
+    border-radius: 4px;
+    
+}
+
+a.submit{
+
+}
+
+footer{
+    background: linear-gradient(#307454, #b2cd68)
+}
+
+
+ /**/
