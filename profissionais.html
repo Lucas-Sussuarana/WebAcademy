@@ -1,140 +1,140 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <title>Profissionais</title>
-   <link rel="stylesheet" type="text/css" href="profissionais.css"><!-- aquieele puxa tudo dentro do css-->
-</head>
-<body>
- <header>
-   <div class="logo">
-      <img src="logo.png" alt="logo da pagina">
-      <p>Logo AI</p>
-      <div class="usuario">
-         <span>Usuario: Admin</span>
-         <span>Papel: Webmaster</span>
-      </div>
-   </div>
- </header>  
- <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pacientes.html">Pacientes</a></li>
-        <li><a href="atendimento.html">Atendimento</a></li>
-        <li><a href="convenios.html">Convenios</a></li>
-        <li><a href="profissionais.html">Profissionais</a></li>
-        <li><a href="unidades.html">Unidades</a></li>
-        <li><a href="especialidades.html">Especialidade</a></li>
-        <li><a href="usuarios.html">Usuarios</a></li>
-    </ul>
- </nav>   
- <main>
-   <form action="">
-      <label for="nomeProfissional">Nome:</label>
-      <input type="text" name="nome" id="nomeProfissional">
-      <br> <!-- Serve parapular linha-->
-      <label for="registroConselho">Registro Coselho:</label>
-      <input type="text" name="registro" id="registroConselho">
-      <br>
-      <label for="emailProfissional">Email:</label>
-      <input type="email" name="email" id="emailProfissional">
-      <br> <!-- Serve parapular linha-->
-      <label for="registroUnidade">Registro Unidade:</label>
-      <select>
-         <option value="1">UPA1</option>
-         <option value="2">UPA2</option>
-         <option value="3">UPA3</option>
-      </select>
-      <br>
-      <label for="telefoneProfissional">Telefone:</label>
-      <input type="tel" name="telefone" id="telefoneProfissional">
-      <br> <!-- Serve parapular linha-->
-      <label for="registroEspecialidade">Registro Especialidade:</label>
-      <select>
-         <option value="1">ESPECIALIDADE 1</option>
-         <option value="2">ESPECIALIDADE 2</option>
-         <option value="3">ESPECIALIDADE 3</option>
-      </select>
-      <br>
-      <input type="submit" value="Enviar" class="botao">
-      <input type="button" value="Cancelar" class="botao">
-   </form>
-   <table border="]">
-      <thead>
-         <tr>
-            <td>ID</td>
-            <td>Nome</td>
-            <td>Conselho</td>
-            <td>Email</td>
-            <td>Telefone</td>
-            <td>Unidade</td>
-            <td>Especialidade</td>
-            <td>Ações</td>
-         </tr>
-      </thead>
-      <tbody>
-         <!-- tr*5>td*8 | tr*5>td{$}+td{x}*6+td>a[href="javascript:void{0}"]{editar}+{|}+a[href="javascript:void{0}"] {excluir}-->
-         <tr>
-            <td>1</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td><a href="javascript:void{0}" class="botao">editar</a> \ <a id="Excluir" href="javascript:void{1}" class="botao">excluir</a></td>
-         </tr>
-         <tr>
-            <td>2</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
-         </tr>
-         <tr>
-            <td>3</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
-         </tr>
-         <tr>
-            <td>4</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
-         </tr>
-         <tr>
-            <td>5</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-            <td><a href="javascript:void{0}">editar</a> \ <a href="javascript:void{1}">excluir</a></td>
-         </tr>
-      </tbody>
-      <tfoot>
+    <head>
 
-      </tfoot>
-   </table>
-   <!-- Para fazer atabela mais rapdo e so fazer table> head+tbody+tfoot e para dar maislinhas use tr>td*n (n é o valor)-->
- </main>      
-<footer>
-   <div>
-      <span>Telefone: (00) 00000-0000</span>
-      <span>Email:<a href="mailto:Testes@gmail.com">Testes@gmail.com</a></span>
-   </div>
-</footer>
-</body>
+        <title>Profissionais</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+    <header>
+        <div class="logo">
+            <img src="logo_azul.png" alt="Logo do SGCM">
+            <span>SGCM</span>
+            <div class="usuario">
+                <span>Usuario: Admin</span>
+                <span>Papel: Admin</span>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pacientes.html">Paciente</a></li>
+            <li><a href="atendimento.html">Atendimento</a></li>
+            <li><a href="convenio.html">Convênio</a></li>
+            <li><a href="profissionais.html">Profissionais</a></li>
+            <li><a href="unidades.html">Unidades</a></li>
+            <li><a href="especialidades.html">Especialidades</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form class="grid" action="">
+            <label for="nomeProfissional">Nome:</label>
+            <input type="text" nome="nome" id="nomeProfissional">
+            <label for="registroConselho">Registro Conselho:</label>
+            <input type="text" name="registro" id="registroConselho">
+            <label for="telefone">telefone:</label>
+            <input type="text" nome="telefone" id="telefone">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <label for="Unidade">Unidade:</label><select>
+                        <option value="1"></option>
+                        <option value="2">Pronto atendimento</option>
+                        <option value="3">Exames Labaratorial</option>
+                        <option value="4">UTI</option>
+                    </select>
+            <label for="especialidade">Especialidade:</label>
+                    <select>
+                        <option value="1"></option>
+                        <option value="2">Cardiologia</option>
+                        <option value="3">Urologia</option>
+                        <option value="4">Neurologia</option>
+                    </select>
+            <input type="hidden">
+            <br><input type="submit" value="Enviar" ><br>
+            <input type="hidden">
+            <input type="button" value="Cancelar" id="vermelho" >
+        </form>
+        <!-- Tabela com 8 colunas e 5 linhas-->
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Nome</td>
+                    <td>Conselho</td>
+                    <td>Email</td>
+                    <td>Telefone</td>
+                    <td>Unidade</td>
+                    <td>Especialidade</td>
+                    <td>Açoes</td>
+                </tr>
+            </thead>
+            <tbody>
+                <!--tr*5>td{$}+td{x}*6+td>a[href="javascript:void(0)"]{Editar}+{|}+a[href="javascript:void(0)"]{ Excluir}-->
+                <tr>
+                    <td>1</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a>  <a id="vermelho" class="botao" href="javascript:void(0)"> Excluir</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a>  <a id="vermelho" class="botao" href="javascript:void(0)"> Excluir</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a>  <a id="vermelho" class="botao" href="javascript:void(0)"> Excluir</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a>  <a id="vermelho" class="botao" href="javascript:void(0)"> Excluir</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a>  <a id="vermelho" class="botao" href="javascript:void(0)"> Excluir</a></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8">Total de Registro: 5</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    </body>
+    <footer>
+        <div>
+            <span>Telefone de contato: (68) 3333-3333</span>
+            <span>Email de contato: <a href="mailto:Suporte.sgcm@ufac.br">Suporte.sgcm@ufac.br</a></span>
+        </div>
+    </footer>
 </html>
